@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8B44C69B-1D38-4B11-9217-07A5154E08A5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Weibo-Mac</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>37833D9C-A873-49C9-AE6A-84BEE0BD6889</key>
+		<string>https://github.com/Naituw/WeiboMacSDK.git</string>
+		<key>AE017B71-E91E-4FC1-B674-FC7DF2F4491F</key>
+		<string>https://github.com/Naituw/WeiboForMac.git</string>
+		<key>CC2BB43D-BFD7-409C-AEF7-93BA8C8CFF8B</key>
+		<string>https://github.com/Naituw/PhoenixProject.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Weibo-Mac.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>37833D9C-A873-49C9-AE6A-84BEE0BD6889</key>
+		<string>../Weibo</string>
+		<key>AE017B71-E91E-4FC1-B674-FC7DF2F4491F</key>
+		<string>../WeiboForMac</string>
+		<key>CC2BB43D-BFD7-409C-AEF7-93BA8C8CFF8B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Naituw/PhoenixProject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CC2BB43D-BFD7-409C-AEF7-93BA8C8CFF8B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AE017B71-E91E-4FC1-B674-FC7DF2F4491F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WeiboForMac</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>37833D9C-A873-49C9-AE6A-84BEE0BD6889</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Weibo</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CC2BB43D-BFD7-409C-AEF7-93BA8C8CFF8B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PhoenixProject</string>
+		</dict>
+	</array>
+</dict>
+</plist>
