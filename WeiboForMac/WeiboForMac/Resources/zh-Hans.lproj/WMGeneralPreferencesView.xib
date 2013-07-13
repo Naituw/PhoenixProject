@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1060" defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4457.6"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="WMGeneralPreferencesController">
+            <connections>
+                <action selector="updateStatusBarItemBehavior:" destination="122" id="128"/>
+                <outlet property="menuBehaviorChooser" destination="122" id="132"/>
+                <outlet property="newWeiboRecorder" destination="116" id="119"/>
+                <outlet property="showAppRecorder" destination="117" id="120"/>
+                <outlet property="view" destination="2" id="109"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <customObject id="101" customClass="SUUpdater">
+            <connections>
+                <action selector="checkForUpdates:" destination="4" id="102"/>
+            </connections>
+        </customObject>
+        <customView id="2" userLabel="General">
+            <rect key="frame" x="0.0" y="0.0" width="451" height="420"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <button id="5">
+                    <rect key="frame" x="165" y="119" width="100" height="27"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <buttonCell key="cell" type="check" title="自动检查更新" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="16">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="101" name="value" keyPath="automaticallyChecksForUpdates" id="108"/>
+                    </connections>
+                </button>
+                <button id="3">
+                    <rect key="frame" x="165" y="299" width="126" height="27"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <buttonCell key="cell" type="check" title="信息流中显示图片" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="18">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="150" name="value" keyPath="showsThumbImage" id="156"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" id="4">
+                    <rect key="frame" x="161" y="84" width="92" height="32"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <buttonCell key="cell" type="push" title="立即检查" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="17">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                    </buttonCell>
+                </button>
+                <textField verticalHuggingPriority="750" id="9">
+                    <rect key="frame" x="80" y="382" width="82" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="状态栏图标：" id="12">
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="8">
+                    <rect key="frame" x="93" y="349" width="69" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="字体大小：" id="13">
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <slider verticalHuggingPriority="750" id="7">
+                    <rect key="frame" x="165" y="341" width="164" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <sliderCell key="cell" state="on" alignment="left" minValue="11" maxValue="18" doubleValue="11" tickMarkPosition="below" numberOfTickMarks="8" allowsTickMarkValuesOnly="YES" sliderType="linear" id="14">
+                        <connections>
+                            <binding destination="150" name="value" keyPath="fontSize" id="154"/>
+                        </connections>
+                    </sliderCell>
+                </slider>
+                <textField verticalHuggingPriority="750" id="6">
+                    <rect key="frame" x="335" y="349" width="21" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="11" id="15">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <action selector="takeIntegerValueFrom:" destination="7" id="21"/>
+                        <binding destination="150" name="value" keyPath="fontSize" id="152"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" id="112">
+                    <rect key="frame" x="41" y="24" width="121" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="全局 显示/隐藏：" id="113">
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="114">
+                    <rect key="frame" x="41" y="56" width="121" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="全局 新建微博：" id="115">
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="133">
+                    <rect key="frame" x="41" y="186" width="121" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="收到新微博时：" id="134">
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <customView id="116" customClass="SRRecorderControl">
+                    <rect key="frame" x="167" y="52" width="160" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-2" id="118"/>
+                    </connections>
+                </customView>
+                <customView id="117" customClass="SRRecorderControl">
+                    <rect key="frame" x="167" y="20" width="160" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-2" id="121"/>
+                    </connections>
+                </customView>
+                <popUpButton verticalHuggingPriority="750" id="122">
+                    <rect key="frame" x="164" y="376" width="166" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="123">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" title="OtherViews" id="124">
+                            <items>
+                                <menuItem title="显示菜单" id="125">
+                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                </menuItem>
+                                <menuItem title="显示/隐藏应用窗口" id="126"/>
+                                <menuItem title="关闭" id="127"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                </popUpButton>
+                <button id="135">
+                    <rect key="frame" x="165" y="184" width="113" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="自动滚动到顶部" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="136">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="103" name="value" keyPath="values.scroll-to-top-automatically" id="140"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" id="137">
+                    <rect key="frame" x="177" y="162" width="121" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="（如果已经在顶部）" id="138">
+                        <font key="font" size="11" name="STHeitiSC-Light"/>
+                        <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button id="141">
+                    <rect key="frame" x="165" y="209" width="113" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="在后台打开链接" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="142">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="103" name="value" keyPath="values.open-links-in-background" id="145"/>
+                    </connections>
+                </button>
+                <button id="157">
+                    <rect key="frame" x="165" y="271" width="290" height="27"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <buttonCell key="cell" type="check" title="信息流中的缩略图置于微博右侧" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="160">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" size="13" name="STHeitiSC-Light"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="150" name="value" keyPath="placeThumbImageOnSideOfCell" id="162"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" id="158">
+                    <rect key="frame" x="177" y="252" width="218" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="（如果微博中仅有一张图片）" id="159">
+                        <font key="font" size="11" name="STHeitiSC-Light"/>
+                        <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+        </customView>
+        <customObject id="150" customClass="WMUserPreferences"/>
+        <userDefaultsController id="103"/>
+    </objects>
+    <classes>
+        <class className="SRRecorderControl" superclassName="NSControl">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SRRecorderControl.h"/>
+            <relationships>
+                <relationship kind="outlet" name="delegate"/>
+            </relationships>
+        </class>
+        <class className="SUUpdater" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SUUpdater.h"/>
+            <relationships>
+                <relationship kind="action" name="checkForUpdates:"/>
+                <relationship kind="outlet" name="delegate"/>
+            </relationships>
+        </class>
+        <class className="WMGeneralPreferencesController" superclassName="NSViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WMGeneralPreferencesController.h"/>
+            <relationships>
+                <relationship kind="action" name="updateStatusBarItemBehavior:"/>
+                <relationship kind="outlet" name="menuBehaviorChooser" candidateClass="NSPopUpButton"/>
+                <relationship kind="outlet" name="newWeiboRecorder" candidateClass="SRRecorderControl"/>
+                <relationship kind="outlet" name="showAppRecorder" candidateClass="SRRecorderControl"/>
+            </relationships>
+        </class>
+        <class className="WMUserPreferences" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WMUserPreferences.h"/>
+        </class>
+    </classes>
+</document>

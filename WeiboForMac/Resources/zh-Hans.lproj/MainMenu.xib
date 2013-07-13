@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4457.6"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="WeiboForMacApp">
+            <connections>
+                <action selector="orderFrontStandardAboutPanel:" destination="58" id="142"/>
+                <outlet property="delegate" destination="494" id="495"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder">
+            <connections>
+                <action selector="accountComments:" destination="610" id="617"/>
+                <action selector="accountMentions:" destination="609" id="616"/>
+                <action selector="accountMessages:" destination="611" id="618"/>
+                <action selector="accountProfile:" destination="612" id="619"/>
+                <action selector="accountSearch:" destination="613" id="620"/>
+                <action selector="accountTimeline:" destination="608" id="615"/>
+                <action selector="arrangeInFront:" destination="5" id="39"/>
+                <action selector="capitalizeWord:" destination="466" id="467"/>
+                <action selector="centerSelectionInVisibleArea:" destination="210" id="245"/>
+                <action selector="checkSpelling:" destination="201" id="225"/>
+                <action selector="copy:" destination="197" id="224"/>
+                <action selector="cut:" destination="199" id="228"/>
+                <action selector="delete:" destination="202" id="235"/>
+                <action selector="deleteWeibo:" destination="585" id="663"/>
+                <action selector="hide:" destination="134" id="367"/>
+                <action selector="hideOtherApplications:" destination="145" id="368"/>
+                <action selector="lowercaseWord:" destination="465" id="468"/>
+                <action selector="nextSelection:" destination="623" id="625"/>
+                <action selector="openCurrentViewControllerInSatelliteWindow:" destination="659" id="662"/>
+                <action selector="orderFrontSubstitutionsPanel:" destination="457" id="458"/>
+                <action selector="paste:" destination="203" id="226"/>
+                <action selector="pasteAsPlainText:" destination="485" id="486"/>
+                <action selector="performClose:" destination="574" id="575"/>
+                <action selector="performFindPanelAction:" destination="209" id="241"/>
+                <action selector="performFindPanelAction:" destination="208" id="487"/>
+                <action selector="performFindPanelAction:" destination="213" id="488"/>
+                <action selector="performFindPanelAction:" destination="221" id="489"/>
+                <action selector="performFindPanelAction:" destination="534" id="535"/>
+                <action selector="performMiniaturize:" destination="23" id="37"/>
+                <action selector="performZoom:" destination="239" id="240"/>
+                <action selector="post:" destination="579" id="597"/>
+                <action selector="previousSelection:" destination="624" id="626"/>
+                <action selector="redo:" destination="215" id="231"/>
+                <action selector="reply:" destination="581" id="596"/>
+                <action selector="repost:" destination="582" id="598"/>
+                <action selector="selectAll:" destination="198" id="232"/>
+                <action selector="selectNextAccount:" destination="668" id="671"/>
+                <action selector="selectPreviousAccount:" destination="669" id="672"/>
+                <action selector="showGuessPanel:" destination="204" id="230"/>
+                <action selector="startSpeaking:" destination="196" id="233"/>
+                <action selector="stopSpeaking:" destination="195" id="227"/>
+                <action selector="toggleAutomaticDashSubstitution:" destination="460" id="461"/>
+                <action selector="toggleAutomaticLinkDetection:" destination="354" id="357"/>
+                <action selector="toggleAutomaticQuoteSubstitution:" destination="351" id="356"/>
+                <action selector="toggleAutomaticSpellingCorrection:" destination="454" id="456"/>
+                <action selector="toggleAutomaticTextReplacement:" destination="462" id="463"/>
+                <action selector="toggleContinuousSpellChecking:" destination="219" id="222"/>
+                <action selector="toggleGrammarChecking:" destination="346" id="347"/>
+                <action selector="toggleKeepsOnTop:" destination="665" id="667"/>
+                <action selector="toggleMainWindow:" destination="606" id="621"/>
+                <action selector="toggleSmartInsertDelete:" destination="350" id="355"/>
+                <action selector="undo:" destination="207" id="223"/>
+                <action selector="unhideAllApplications:" destination="150" id="370"/>
+                <action selector="uppercaseWord:" destination="452" id="464"/>
+                <action selector="viewOnWebPage:" destination="587" id="604"/>
+                <action selector="viewPhoto:" destination="600" id="664"/>
+                <action selector="viewReplies:" destination="588" id="599"/>
+                <action selector="viewUserDetails:" destination="583" id="603"/>
+            </connections>
+        </customObject>
+        <customObject id="-3" userLabel="Application" customClass="WeiboForMacApp">
+            <connections>
+                <action selector="terminate:" destination="136" id="449"/>
+            </connections>
+        </customObject>
+        <menu title="AMainMenu" systemMenu="main" id="29">
+            <items>
+                <menuItem title="Weibo for Mac" id="56">
+                    <menu key="submenu" title="Weibo for Mac" systemMenu="apple" id="57">
+                        <items>
+                            <menuItem title="关于 Weibo for Mac" id="58">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="236">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="偏好设置…" keyEquivalent="," id="129"/>
+                            <menuItem title="检查更新" id="553">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                            </menuItem>
+                            <menuItem title="清空缓存" id="550">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="143">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="服务" id="131">
+                                <menu key="submenu" title="服务" systemMenu="services" id="130"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="144">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="隐藏 Weibo for Mac" keyEquivalent="h" id="134"/>
+                            <menuItem title="隐藏其他应用" keyEquivalent="h" id="145">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                            </menuItem>
+                            <menuItem title="显示全部" id="150"/>
+                            <menuItem isSeparatorItem="YES" id="149">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="退出 Weibo for Mac" keyEquivalent="q" id="136"/>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="文件" id="83">
+                    <menu key="submenu" title="文件" id="81">
+                        <items>
+                            <menuItem title="撰写新微博..." keyEquivalent="n" id="82"/>
+                            <menuItem isSeparatorItem="YES" id="79">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="转到用户..." keyEquivalent="u" id="571"/>
+                            <menuItem isSeparatorItem="YES" id="576"/>
+                            <menuItem title="关闭" keyEquivalent="w" id="574"/>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="编辑" id="217">
+                    <menu key="submenu" title="编辑" id="205">
+                        <items>
+                            <menuItem title="撤销" keyEquivalent="z" id="207"/>
+                            <menuItem title="重做" keyEquivalent="Z" id="215">
+                                <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="206">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="剪切" keyEquivalent="x" id="199"/>
+                            <menuItem title="拷贝" keyEquivalent="c" id="197"/>
+                            <menuItem title="粘贴" keyEquivalent="v" id="203"/>
+                            <menuItem title="粘贴并匹配样式" keyEquivalent="V" id="485">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                            </menuItem>
+                            <menuItem title="删除" id="202"/>
+                            <menuItem title="全选" keyEquivalent="a" id="198"/>
+                            <menuItem isSeparatorItem="YES" id="214">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="查找" id="218">
+                                <menu key="submenu" title="查找" id="220">
+                                    <items>
+                                        <menuItem title="查找…" tag="1" keyEquivalent="f" id="209"/>
+                                        <menuItem title="查找并替换…" tag="12" keyEquivalent="f" id="534">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                        </menuItem>
+                                        <menuItem title="查找下一个" tag="2" keyEquivalent="g" id="208"/>
+                                        <menuItem title="查找前一个" tag="3" keyEquivalent="G" id="213">
+                                            <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
+                                        </menuItem>
+                                        <menuItem title="使用所选位置查找" tag="7" keyEquivalent="e" id="221"/>
+                                        <menuItem title="跳到所选位置" keyEquivalent="j" id="210"/>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="拼写和语法" id="216">
+                                <menu key="submenu" title="拼写和语法" id="200">
+                                    <items>
+                                        <menuItem title="显示拼写和语法" keyEquivalent=":" id="204"/>
+                                        <menuItem title="立即检查文档" keyEquivalent=";" id="201"/>
+                                        <menuItem isSeparatorItem="YES" id="453"/>
+                                        <menuItem title="键入时检查拼写" id="219"/>
+                                        <menuItem title="检查拼写和语法" id="346"/>
+                                        <menuItem title="自动纠正拼写" id="454">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="替换" id="348">
+                                <menu key="submenu" title="替换" id="349">
+                                    <items>
+                                        <menuItem title="显示替换" id="457">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="459"/>
+                                        <menuItem title="智能复制/粘贴" tag="1" keyEquivalent="f" id="350"/>
+                                        <menuItem title="智能引用" tag="2" keyEquivalent="g" id="351"/>
+                                        <menuItem title="智能分词" id="460">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                        </menuItem>
+                                        <menuItem title="智能链接" tag="3" keyEquivalent="G" id="354">
+                                            <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
+                                        </menuItem>
+                                        <menuItem title="文本替换" id="462">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="变换" id="450">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="变换" id="451">
+                                    <items>
+                                        <menuItem title="转换为大写" id="452">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                        </menuItem>
+                                        <menuItem title="转换为小写" id="465">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                        </menuItem>
+                                        <menuItem title="首字母大写" id="466">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="语音" id="211">
+                                <menu key="submenu" title="语音" id="212">
+                                    <items>
+                                        <menuItem title="开始朗读文本" id="196"/>
+                                        <menuItem title="停止朗读" id="195"/>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="微博" id="295">
+                    <menu key="submenu" title="微博" id="296">
+                        <items>
+                            <menuItem title="发送" id="579">
+                                <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="580"/>
+                            <menuItem title="回复" keyEquivalent="r" id="581"/>
+                            <menuItem title="转发" keyEquivalent="t" id="582">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                            </menuItem>
+                            <menuItem title="查看评论" keyEquivalent="c" id="588">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                            </menuItem>
+                            <menuItem title="查看图片" keyEquivalent="p" id="600"/>
+                            <menuItem title="用户详细资料" keyEquivalent="" id="583">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="584"/>
+                            <menuItem title="删除微博" id="585">
+                                <string key="keyEquivalent" base64-UTF8="YES">
+CA
+</string>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="586"/>
+                            <menuItem title="在 Weibo.com 查看" keyEquivalent="w" id="587">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="窗口" id="19">
+                    <menu key="submenu" title="窗口" systemMenu="window" id="24">
+                        <items>
+                            <menuItem title="最小化" keyEquivalent="m" id="23"/>
+                            <menuItem title="最大化" id="239"/>
+                            <menuItem isSeparatorItem="YES" id="92">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="主窗口" keyEquivalent="/" id="606"/>
+                            <menuItem isSeparatorItem="YES" id="607"/>
+                            <menuItem title="时间线" keyEquivalent="1" id="608"/>
+                            <menuItem title="提及" keyEquivalent="2" id="609"/>
+                            <menuItem title="评论" keyEquivalent="3" id="610"/>
+                            <menuItem title="私信" keyEquivalent="4" id="611"/>
+                            <menuItem title="个人资料" keyEquivalent="5" id="612"/>
+                            <menuItem title="搜索" keyEquivalent="6" id="613"/>
+                            <menuItem isSeparatorItem="YES" id="614"/>
+                            <menuItem title="下一页" keyEquivalent="]" id="623"/>
+                            <menuItem title="上一页" keyEquivalent="[" id="624"/>
+                            <menuItem isSeparatorItem="YES" id="622"/>
+                            <menuItem title="下一账号" keyEquivalent="}" id="668">
+                                <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
+                            </menuItem>
+                            <menuItem title="上一账号" keyEquivalent="{" id="669">
+                                <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="670"/>
+                            <menuItem title="在新窗口中打开" keyEquivalent="T" id="659"/>
+                            <menuItem isSeparatorItem="YES" id="660"/>
+                            <menuItem title="保持此窗口在最前" id="665">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="666"/>
+                            <menuItem title="前置所有窗口" id="5"/>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="帮助" id="490">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="帮助" systemMenu="help" id="491">
+                        <items>
+                            <menuItem title="微博使用帮助" id="577">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+            </items>
+        </menu>
+        <customObject id="494" customClass="WeiboForMacAppDelegate">
+            <connections>
+                <action selector="beginGoToUserSheet:" destination="571" id="572"/>
+                <action selector="cancelGoToUser:" destination="561" id="568"/>
+                <action selector="compose:" destination="82" id="570"/>
+                <action selector="emptyCache:" destination="550" id="551"/>
+                <action selector="gotoUserActive:" destination="559" id="629"/>
+                <action selector="showPreferenceWindow:" destination="129" id="536"/>
+                <action selector="viewWeiboHelpOnWeb:" destination="577" id="578"/>
+                <outlet property="gotoUserButton" destination="559" id="563"/>
+                <outlet property="gotoUserField" destination="557" id="564"/>
+                <outlet property="gotoUserPanel" destination="555" id="565"/>
+                <outlet property="mainMenu" destination="29" id="605"/>
+            </connections>
+        </customObject>
+        <customObject id="420" customClass="NSFontManager"/>
+        <customObject id="552" customClass="SUUpdater">
+            <connections>
+                <action selector="checkForUpdates:" destination="553" id="554"/>
+            </connections>
+        </customObject>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" hidesOnDeactivate="YES" oneShot="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="555" customClass="NSPanel">
+            <windowStyleMask key="styleMask" titled="YES" utility="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="139" y="81" width="279" height="100"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <view key="contentView" id="556">
+                <rect key="frame" x="0.0" y="0.0" width="279" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <comboBox verticalHuggingPriority="750" id="557">
+                        <rect key="frame" x="20" y="56" width="242" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" numberOfVisibleItems="5" id="558">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </comboBoxCell>
+                        <connections>
+                            <outlet property="delegate" destination="494" id="566"/>
+                        </connections>
+                    </comboBox>
+                    <button verticalHuggingPriority="750" id="559">
+                        <rect key="frame" x="160" y="12" width="105" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="跳转到用户" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="560">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" size="13" name="STHeitiSC-Light"/>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" id="561">
+                        <rect key="frame" x="78" y="12" width="82" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="取消" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="562">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" size="13" name="STHeitiSC-Light"/>
+                        </buttonCell>
+                    </button>
+                </subviews>
+            </view>
+        </window>
+    </objects>
+    <classes>
+        <class className="SUUpdater" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SUUpdater.h"/>
+            <relationships>
+                <relationship kind="action" name="checkForUpdates:"/>
+                <relationship kind="outlet" name="delegate"/>
+            </relationships>
+        </class>
+        <class className="TUINSWindow" superclassName="NSWindow">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TUINSWindow.h"/>
+        </class>
+        <class className="TUIResponder" superclassName="NSResponder">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TUIResponder.h"/>
+        </class>
+        <class className="TUITableViewCell" superclassName="TUIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TUITableViewCell.h"/>
+        </class>
+        <class className="TUIView" superclassName="TUIResponder">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TUIView.h"/>
+        </class>
+        <class className="TUIViewController" superclassName="TUIResponder">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TUIViewController.h"/>
+        </class>
+        <class className="WMColumnViewController" superclassName="WTUIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WMColumnViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="openCurrentViewControllerInSatelliteWindow:"/>
+            </relationships>
+        </class>
+        <class className="WMRootViewController" superclassName="WTUIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WMRootViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="accountComments:"/>
+                <relationship kind="action" name="accountMentions:"/>
+                <relationship kind="action" name="accountMessages:"/>
+                <relationship kind="action" name="accountProfile:"/>
+                <relationship kind="action" name="accountSearch:"/>
+                <relationship kind="action" name="accountTimeline:"/>
+                <relationship kind="action" name="nextSelection:"/>
+                <relationship kind="action" name="previousSelection:"/>
+                <relationship kind="action" name="selectNextAccount:"/>
+                <relationship kind="action" name="selectPreviousAccount:"/>
+            </relationships>
+        </class>
+        <class className="WMSearchableTableViewController" superclassName="WTUIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WMSearchableTableViewController.h"/>
+        </class>
+        <class className="WTComposeWindowController" superclassName="NSWindowController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WTComposeWindowController.h"/>
+            <relationships>
+                <relationship kind="action" name="post:"/>
+            </relationships>
+        </class>
+        <class className="WTStatusCell" superclassName="TUITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WTStatusCell.h"/>
+            <relationships>
+                <relationship kind="action" name="deleteWeibo:"/>
+                <relationship kind="action" name="reply:"/>
+                <relationship kind="action" name="repost:"/>
+                <relationship kind="action" name="viewActiveRange:"/>
+                <relationship kind="action" name="viewOnWebPage:"/>
+                <relationship kind="action" name="viewPhoto:"/>
+                <relationship kind="action" name="viewReplies:"/>
+                <relationship kind="action" name="viewUserDetails:"/>
+                <relationship kind="action" name="viewWeiboSourceApp:"/>
+            </relationships>
+        </class>
+        <class className="WTStatusListViewController" superclassName="WMSearchableTableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WTStatusListViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="deleteWeibo:"/>
+                <relationship kind="action" name="reply:"/>
+                <relationship kind="action" name="repost:"/>
+                <relationship kind="action" name="viewActiveRange:"/>
+                <relationship kind="action" name="viewOnWebPage:"/>
+                <relationship kind="action" name="viewPhoto:"/>
+                <relationship kind="action" name="viewReplies:"/>
+                <relationship kind="action" name="viewUserDetails:"/>
+            </relationships>
+        </class>
+        <class className="WTStatusStreamViewController" superclassName="WTStatusListViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WTStatusStreamViewController.h"/>
+        </class>
+        <class className="WTUIViewController" superclassName="TUIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WTUIViewController.h"/>
+        </class>
+        <class className="WeiboForMacApp" superclassName="NSApplication">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WeiboForMacApp.h"/>
+            <relationships>
+                <relationship kind="action" name="terminate:"/>
+            </relationships>
+        </class>
+        <class className="WeiboForMacAppDelegate" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WeiboForMacAppDelegate.h"/>
+            <relationships>
+                <relationship kind="action" name="beginGoToUserSheet:"/>
+                <relationship kind="action" name="cancelGoToUser:"/>
+                <relationship kind="action" name="compose:"/>
+                <relationship kind="action" name="emptyCache:"/>
+                <relationship kind="action" name="expireCurrentAccount:"/>
+                <relationship kind="action" name="gotoUserActive:"/>
+                <relationship kind="action" name="letMeCrash:"/>
+                <relationship kind="action" name="showPreferenceWindow:"/>
+                <relationship kind="action" name="toggleMainWindow:"/>
+                <relationship kind="action" name="viewWeiboHelpOnWeb:"/>
+                <relationship kind="outlet" name="gotoUserButton" candidateClass="NSButton"/>
+                <relationship kind="outlet" name="gotoUserField" candidateClass="NSComboBox"/>
+                <relationship kind="outlet" name="gotoUserPanel" candidateClass="NSPanel"/>
+                <relationship kind="outlet" name="mainMenu" candidateClass="NSMenu"/>
+            </relationships>
+        </class>
+        <class className="WeiboMac2Window" superclassName="TUINSWindow">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WeiboMac2Window.h"/>
+            <relationships>
+                <relationship kind="action" name="toggleKeepsOnTop:"/>
+            </relationships>
+        </class>
+    </classes>
+</document>

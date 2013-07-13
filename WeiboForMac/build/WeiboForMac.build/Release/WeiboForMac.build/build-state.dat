@@ -1,0 +1,2801 @@
+TWeiboForMac
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Info.plist WeiboForMac/WeiboForMac-Info.plist
+cCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTRefreshingCell.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTRefreshingCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPopoverViewController.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E1106D400000000000000EE
+t1309738708
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004E1106CD0000000000007B2C
+t1309738701
+s31532
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E1106CE0000000000002A30
+t1309738702
+s10800
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E1106CE0000000000002470
+t1309738702
+s9328
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004E1106CE0000000000039E80
+t1309738702
+s237184
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/QTKit.framework/QTKit
+c000000004E1106CF00000000000758C4
+t1309738703
+s481476
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004E1106CF00000000000462E4
+t1309738703
+s287460
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004E1106CF000000000002B724
+t1309738703
+s177956
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+c000000004E1106D00000000000083A6C
+t1309738704
+s539244
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/../WTCacheCenter.m
+c000000004E7ED4B600000000000009AA
+t1316934838
+s2474
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/../WTInformation.m
+c000000004E7ECE150000000000000D10
+t1316933141
+s3344
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/../WTLoginWindow.m
+c000000004E3A3A630000000000000DDE
+t1312438883
+s3550
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/../WTMainWindow.m
+c000000004E83460F00000000000017B9
+t1317225999
+s6073
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/<UIBarButtonSystemItem> add.png
+c000000004E72A01D00000000000003D7
+t1316134941
+s983
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/<UIBarButtonSystemItem> reply.png
+c000000004E72A01D00000000000004B5
+t1316134941
+s1205
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/<UINavigationBar> back-highlighted.png
+c000000004E72A01D00000000000005F7
+t1316134941
+s1527
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/<UINavigationBar> back.png
+c000000004E72A01D000000000000060B
+t1316134941
+s1547
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/<UIPopoverView> arrow-bottom.png
+c000000004E72A01D0000000000000765
+t1316134941
+s1893
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/<UIPopoverView> arrow-left.png
+c000000004E72A01D000000000000074B
+t1316134941
+s1867
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/<UIPopoverView> arrow-right.png
+c000000004E72A01D0000000000000758
+t1316134941
+s1880
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/<UIPopoverView> arrow-top.png
+c000000004E72A01D00000000000006CE
+t1316134941
+s1742
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/<UIPopoverView> background.png
+c000000004E72A01D000000000000096C
+t1316134941
+s2412
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/<UIRoundedRectButton> highlighted.png
+c000000004E72A01D000000000000058D
+t1316134941
+s1421
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/<UIRoundedRectButton> normal.png
+c000000004E72A01D00000000000005B4
+t1316134941
+s1460
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/<UIScreen> grabber.png
+c000000004E72A01D00000000000003E9
+t1316134941
+s1001
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/<UIToolbar> button-highlighted.png
+c000000004E72A01D0000000000000493
+t1316134941
+s1171
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/<UIToolbar> button.png
+c000000004E72A01D0000000000000492
+t1316134941
+s1170
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/Action.png
+c000000004E72A01D0000000000001937
+t1316134941
+s6455
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/Base64Transcoder.c
+c000000004DDCD9020000000000001FE3
+t1306319106
+s8163
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/BaseMethod.m
+c000000004E72A01D0000000000000EFD
+t1316134941
+s3837
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/BaseStatus.m
+c000000004E72A01D0000000000000135
+t1316134941
+s309
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/CoreText+Additions.m
+c000000004E72A01E0000000000001B53
+t1316134942
+s6995
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/DBPrefsWindowController.m
+c000000004E35627100000000000025E6
+t1312121457
+s9702
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/DDHotKeyCenter.m
+c000000004E72A01D000000000000275B
+t1316134941
+s10075
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/DirectMessage.m
+c000000004DDCD90400000000000001FC
+t1306319108
+s508
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/FilePart.m
+c000000004DDCD8E800000000000006E6
+t1306319080
+s1766
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/General.png
+c0000000045E7C6A00000000000000508
+t1172817568
+s1288
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/GetMethod.m
+c000000004E5E28D7000000000000029D
+t1314793687
+s669
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/HttpClient.m
+c000000004E5E3248000000000000018F
+t1314796104
+s399
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/HttpMethod.m
+c000000004E5E32810000000000000726
+t1314796161
+s1830
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/HttpResponse.m
+c000000004DDCD8E70000000000000423
+t1306319079
+s1059
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/INAppStoreWindow.m
+c000000004E72A01D0000000000003CC7
+t1316134941
+s15559
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/Info.plist
+c000000004E72A01D0000000000000340
+t1316134941
+s832
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/InvalidParameterException.m
+c000000004E2E6316000000000000022E
+t1311662870
+s558
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/JsonStatusParser.m
+c000000004E7D390000000000000026E9
+t1316829440
+s9961
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/LayoutMinimize.png
+c000000004E72A01D0000000000001863
+t1316134941
+s6243
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/MultipartPostMethod.m
+c000000004E3525860000000000000BC2
+t1312105862
+s3010
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSArray+WTAddition.m
+c000000004E7A03900000000000000148
+t1316619152
+s328
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSAttributedString+WTAddition.m
+c000000004E834C300000000000002174
+t1317227568
+s8564
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSData+Base64.m
+c000000004DDCD9050000000000001F39
+t1306319109
+s7993
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSDataAdditions.m
+c000000004DDCD8E700000000000009F8
+t1306319079
+s2552
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSMutableAttributedString+ORSCanaryAdditions.m
+c000000004E7C49BE000000000000274D
+t1316768190
+s10061
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSObject+SBJson.m
+c000000004E72A01E00000000000008A6
+t1316134942
+s2214
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSString+URLEncoding.m
+c000000004DDCD9020000000000000684
+t1306319106
+s1668
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSStringAdditions.m
+c000000004DDCD8E70000000000000B20
+t1306319079
+s2848
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NotificationPrefs.png
+c000000004DC8A7CC000000000000057C
+t1304995788
+s1404
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/OAConsumer.m
+c000000004DDCD90200000000000001D8
+t1306319106
+s472
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/OAHMAC_SHA1SignatureProvider.m
+c000000004DDCD902000000000000047C
+t1306319106
+s1148
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/OAPlaintextSignatureProvider.m
+c000000004DDCD902000000000000018E
+t1306319106
+s398
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/OARequestParameter.m
+c000000004DDCD90200000000000003CA
+t1306319106
+s970
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/OAToken.m
+c000000004DDCD90200000000000008F4
+t1306319106
+s2292
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/OauthSingnature.m
+c000000004E7ECE040000000000002C30
+t1316933124
+s11312
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/PartBase.m
+c000000004E35257000000000000001D6
+t1312105840
+s470
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/PostMethod.m
+c000000004DDCD8E700000000000002A4
+t1306319079
+s676
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/Preferences.nib
+c000000004E72A01D0000000000000088
+t1316134941
+s136
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/PutMethod.m
+c000000004E35257A00000000000006F3
+t1312105850
+s1779
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/RandomStringGenerator.m
+c000000004DDCD902000000000000025A
+t1306319106
+s602
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonParser.m
+c000000004E72A01D0000000000000CC0
+t1316134941
+s3264
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonStreamParser.m
+c000000004E72A01D00000000000020D2
+t1316134941
+s8402
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonStreamParserAccumulator.m
+c000000004E72A01E000000000000079B
+t1316134942
+s1947
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonStreamParserAdapter.m
+c000000004E72A01E00000000000011DD
+t1316134942
+s4573
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonStreamParserState.m
+c000000004E72A01E0000000000001FB6
+t1316134942
+s8118
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonStreamWriter.m
+c000000004E72A01E0000000000002956
+t1316134942
+s10582
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonStreamWriterAccumulator.m
+c000000004E72A01E00000000000007EB
+t1316134942
+s2027
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonStreamWriterState.m
+c000000004E72A01E0000000000000F61
+t1316134942
+s3937
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonTokeniser.m
+c000000004E72A01E0000000000003386
+t1316134942
+s13190
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonUTF8Stream.m
+c000000004E72A01E0000000000000F21
+t1316134942
+s3873
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonWriter.m
+c000000004E72A01E0000000000000DBF
+t1316134942
+s3519
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SDWebImage/LICENSE
+c000000004E3A65E8000000000000043C
+t1312450024
+s1084
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SDWebImage/README.md
+c000000004E3A65E80000000000001FA1
+t1312450024
+s8097
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SDWebImage/SDImageCache.m
+c000000004E5DB7D300000000000029D9
+t1314764755
+s10713
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SDWebImage/SDWebImageDownloader.m
+c000000004E5DB7C30000000000001645
+t1314764739
+s5701
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SDWebImage/SDWebImageManager.m
+c000000004E5DB57D000000000000201D
+t1314764157
+s8221
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SDWebImage/TUIImageView+WebCache.m
+c000000004E81EDAD000000000000060D
+t1317137837
+s1549
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SFBPopoverWindow.m
+c000000004E235EB600000000000035E4
+t1310940854
+s13796
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SFBPopoverWindowController.m
+c000000004E46521F0000000000002A27
+t1313231391
+s10791
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SFBPopoverWindowFrame.m
+c000000004E235EB600000000000035A3
+t1310940854
+s13731
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SVProgressHUD.bundle
+c000000004E72A01E00000000000000CC
+t1316134942
+s204
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SVProgressHUD.m
+c000000004E72A01E0000000000002319
+t1316134942
+s8985
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/ServerSideError.m
+c000000004DDCD8E1000000000000015E
+t1306319073
+s350
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/ServerSideException.m
+c000000004DDCD8E10000000000000129
+t1306319073
+s297
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/Status.m
+c000000004DDCD904000000000000043C
+t1306319108
+s1084
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/StringPart.m
+c000000004DDCD8E80000000000000450
+t1306319080
+s1104
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/Support/ABActiveRange.m
+c000000004E3E1F170000000000000670
+t1312694039
+s1648
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIAccessibility.m
+c000000004E72A01E0000000000001415
+t1316134942
+s5141
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIAccessibilityElement.m
+c000000004E72A01E0000000000000243
+t1316134942
+s579
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIActivityIndicatorView.m
+c000000004E72A01E000000000000093B
+t1316134942
+s2363
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIAttributedString.m
+c000000004E72A01E0000000000001ABB
+t1316134942
+s6843
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIButton+Accessibility.m
+c000000004E72A01E0000000000000172
+t1316134942
+s370
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIButton+Content.m
+c000000004E72A01E00000000000010A0
+t1316134942
+s4256
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIButton+WTAddition.m
+c000000004E72A01E0000000000000278
+t1316134942
+s632
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIButton.m
+c000000004E7ECDDC00000000000015F9
+t1316933084
+s5625
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUICGAdditions.m
+c000000004E72A01E000000000000153F
+t1316134942
+s5439
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIColor.m
+c000000004E72A01E00000000000019D2
+t1316134942
+s6610
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIControl+Accessibility.m
+c000000004E72A01E0000000000000342
+t1316134942
+s834
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIControl+Private.m
+c000000004E72A01E0000000000000119
+t1316134942
+s281
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIControl+TargetAction.m
+c000000004E72A01E00000000000012C2
+t1316134942
+s4802
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIControl.m
+c000000004E72A01E0000000000000DC9
+t1316134942
+s3529
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIFastIndexPath.m
+c000000004E72A01E0000000000000D5C
+t1316134942
+s3420
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIFont.m
+c000000004E72A01E0000000000001903
+t1316134942
+s6403
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIGeometry.m
+c000000004E72A01E00000000000002AD
+t1316134942
+s685
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIImage+Drawing.m
+c000000004E72A01E000000000000145D
+t1316134942
+s5213
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIImage+UIPrivate.m
+c000000004E72A01E00000000000019F0
+t1316134942
+s6640
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIImage.m
+c000000004E72A01E00000000000025D1
+t1316134942
+s9681
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIImageView.m
+c000000004E72A01E00000000000004FE
+t1316134942
+s1278
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIKit.m
+c000000004E72A01E0000000000000BB7
+t1316134942
+s2999
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUILabel.m
+c000000004E72A01E0000000000000DE8
+t1316134942
+s3560
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUINSView+Accessibility.m
+c000000004E72A01E00000000000008AC
+t1316134942
+s2220
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUINSView+Hyperfocus.m
+c000000004E72A01E0000000000000AA2
+t1316134942
+s2722
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUINSView+NSTextInputClient.m
+c000000004E72A01E0000000000001582
+t1316134942
+s5506
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUINSView.m
+c000000004E72A01E000000000000246A
+t1316134942
+s9322
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUINSWindow.m
+c000000004E72A01E000000000000167C
+t1316134942
+s5756
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIResponder.m
+c000000004E72A01E00000000000003F8
+t1316134942
+s1016
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIScrollKnob.m
+c000000004E72A01E0000000000001A0D
+t1316134942
+s6669
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIScrollView.m
+c000000004E72A01E00000000000078B3
+t1316134942
+s30899
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIStringDrawing.m
+c000000004E72A01E0000000000000C2C
+t1316134942
+s3116
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITableView+Additions.m
+c000000004E72A01E0000000000000446
+t1316134942
+s1094
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITableView+Cell.m
+c000000004E72A01E0000000000003CEA
+t1316134942
+s15594
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITableView+Derepeater.m
+c000000004E72A01E0000000000000953
+t1316134942
+s2387
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITableView+WTAddition.m
+c000000004E834EB70000000000000A94
+t1317228215
+s2708
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITableView.m
+c000000004E7EE75700000000000090C2
+t1316939607
+s37058
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITableViewCell.m
+c000000004E72A01E00000000000014B5
+t1316134942
+s5301
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITableViewSectionHeader.m
+c000000004E72A01E0000000000000712
+t1316134942
+s1810
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITextEditor.m
+c000000004E72A01E0000000000002B0C
+t1316134942
+s11020
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITextField.m
+c000000004E72A01E0000000000000B91
+t1316134942
+s2961
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITextRenderer+Event.m
+c000000004E72A01E0000000000002190
+t1316134942
+s8592
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITextRenderer+KeyBindings.m
+c000000004E72A01E000000000000163A
+t1316134942
+s5690
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITextRenderer.m
+c000000004E72A01E0000000000002398
+t1316134942
+s9112
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITextView.m
+c000000004E72A01E0000000000003339
+t1316134942
+s13113
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITextViewEditor.m
+c000000004E72A01E00000000000001D9
+t1316134942
+s473
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITooltipWindow.m
+c000000004E72A01E00000000000011B5
+t1316134942
+s4533
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView+Accessibility.m
+c000000004E72A01E000000000000173B
+t1316134942
+s5947
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView+Animation.m
+c000000004E82059D0000000000002AE9
+t1317143965
+s10985
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView+Event.m
+c000000004E72A01E000000000000151D
+t1316134942
+s5405
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView+NSTextInputClient.m
+c000000004E72A01E00000000000002AD
+t1316134942
+s685
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView+PasteboardDragging.m
+c000000004E72A01E0000000000000A86
+t1316134942
+s2694
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView+Private.m
+c000000004E72A01E00000000000004FC
+t1316134942
+s1276
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView+WTAddition.m
+c000000004E72A01E00000000000000D5
+t1316134942
+s213
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView.m
+c000000004E7EC5600000000000004AA7
+t1316930912
+s19111
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIViewController.m
+c000000004E72A01E00000000000009B7
+t1316134942
+s2487
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIViewNSViewContainer.m
+c000000004E72A01E000000000000044A
+t1316134942
+s1098
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TabBarGlow.png
+c000000004E72A01E000000000000085B
+t1316134942
+s2139
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TabBarItemSelectedBackground.png
+c000000004E72A01E000000000000058B
+t1316134942
+s1419
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/UIBezierPath.m
+c000000004E684E3E0000000000002E87
+t1315458622
+s11911
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/UIColor.m
+c000000004E72A01E0000000000002729
+t1316134942
+s10025
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/UIFont.m
+c000000004E72A01E00000000000019D2
+t1316134942
+s6610
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/UIGraphics.m
+c000000004E72A01E00000000000010BB
+t1316134942
+s4283
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/UnreadCount.m
+c000000004E19AB370000000000000334
+t1310305079
+s820
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/User.m
+c000000004E72A01E000000000000063A
+t1316134942
+s1594
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WComment.m
+c000000004DDCD9040000000000000175
+t1306319108
+s373
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTButtonCell.m
+c000000004E83418B0000000000001392
+t1317224843
+s5010
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTColumnViewController.m
+c000000004E72A01E0000000000000155
+t1316134942
+s341
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTControlPanel.m
+c000000004E72A01E0000000000000BCE
+t1316134942
+s3022
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTDateFormatter.m
+c000000004E72A01E00000000000009A2
+t1316134942
+s2466
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTDragableTableView.m
+c000000004E72A01E0000000000000516
+t1316134942
+s1302
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTEventHandler.m
+c000000004E834D6000000000000005AA
+t1317227872
+s1450
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTHUDActivityIndicatorView.m
+c000000004E72A01E000000000000060A
+t1316134942
+s1546
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTHeadImageView.m
+c000000004E72A01E0000000000000251
+t1316134942
+s593
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTImageView.m
+c000000004E72A01E000000000000020E
+t1316134942
+s526
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTLoginWindow.xib
+c000000004E39EF400000000000008140
+t1312419648
+s33088
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTMainWindow.xib
+c000000004E72A01E0000000000001EFB
+t1316134942
+s7931
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverView.xib
+c000000004E4629B00000000000003437
+t1313221040
+s13367
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverViewController.m
+c000000004E72A01E000000000000074B
+t1316134942
+s1867
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverWindow.m
+c000000004E84679000000000000003D5
+t1317300112
+s981
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPrefsController.m
+c000000004E7E038200000000000004F0
+t1316881282
+s1264
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPullDownView.m
+c000000004E7EE44E0000000000001816
+t1316938830
+s6166
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTRefreshingCell.m
+c000000004E8310DC00000000000008E3
+t1317212380
+s2275
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTRootViewController.m
+c000000004E83458300000000000010CB
+t1317225859
+s4299
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTSectionAvatarView.m
+c000000004E72A01E0000000000000C1D
+t1316134942
+s3101
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTStatus.m
+c000000004E7D36570000000000001111
+t1316828759
+s4369
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTStatusCell.m
+c000000004E834662000000000000301E
+t1317226082
+s12318
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTStatusListViewController.m
+c000000004E8358A300000000000022D5
+t1317230755
+s8917
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTStatusTableView.m
+c000000004E7F066B0000000000000344
+t1316947563
+s836
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTStream.m
+c000000004E8358BD000000000000140F
+t1317230781
+s5135
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTTabViewController.m
+c000000004E8340A10000000000001361
+t1317224609
+s4961
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTTextRenderer.m
+c000000004E834D8A0000000000000506
+t1317227914
+s1286
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTThumbPicView.m
+c000000004E72A01E00000000000005F4
+t1316134942
+s1524
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTTimeLineView.m
+c000000004E7C7F840000000000000000
+t1316781956
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTTitleView.m
+c000000004E72A01E0000000000000B3E
+t1316134942
+s2878
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIBarButtonItem.m
+c000000004E72A01E000000000000064F
+t1316134942
+s1615
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIBarItem.m
+c000000004E72A01E0000000000000217
+t1316134942
+s535
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIInterface.m
+c000000004E72A01E00000000000002EE
+t1316134942
+s750
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUILabel.m
+c000000004E72A01E00000000000017C0
+t1316134942
+s6080
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUILableView.m
+c000000004E78A6B70000000000000951
+t1316529847
+s2385
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUINavigationBar.m
+c000000004E7F4F610000000000003F47
+t1316966241
+s16199
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUINavigationBarBackButton.m
+c000000004E7899BA000000000000068E
+t1316526522
+s1678
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUINavigationController.m
+c000000004E81DFDE0000000000004B81
+t1317134302
+s19329
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUINavigationItem.m
+c000000004E72A01E0000000000001053
+t1316134942
+s4179
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIStaticTextRenderer.m
+c000000004E72A01E00000000000001E6
+t1316134942
+s486
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIStringDrawing.m
+c000000004E72A01E0000000000002171
+t1316134942
+s8561
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIToolBar.m
+c000000004E72A01E0000000000001C3F
+t1316134942
+s7231
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIToolBarButton.m
+c000000004E72A01E0000000000000D8E
+t1316134942
+s3470
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIViewController.m
+c000000004E80B4160000000000000692
+t1317057558
+s1682
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTWeakMap.m
+c000000004E72A01E00000000000002F0
+t1316134942
+s752
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/Weibo.m
+c000000004E7C5A6300000000000095C6
+t1316772451
+s38342
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WeiboForMac-Prefix.pch
+c000000004E8074750000000000000102
+t1317041269
+s258
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WeiboForMac.icns
+c000000004E1D7AE500000000000333DA
+t1310554853
+s209882
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WeiboForMacAppDelegate.m
+c000000004E8072C00000000000000BAB
+t1317040832
+s2987
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/at.png
+c000000004E72A01E00000000000001F3
+t1316134942
+s499
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/comment.png
+c000000004E833CE900000000000005CE
+t1317223657
+s1486
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/conversation.png
+c000000004E81CF500000000000000694
+t1317130064
+s1684
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/en.lproj/Credits.rtf
+c000000004E35241B00000000000001B4
+t1312105499
+s436
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/en.lproj/InfoPlist.strings
+c000000004E35241B000000000000002D
+t1312105499
+s45
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/en.lproj/MainMenu.xib
+c000000004E4519B20000000000024D53
+t1313151410
+s150867
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/end-of-stream.png
+c000000004DC8A7CC00000000000000DB
+t1304995788
+s219
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/escape.c
+c000000004DDCD8E700000000000007F1
+t1306319079
+s2033
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/headplaceholder.png
+c000000004E72A01E0000000000001CDC
+t1316134942
+s7388
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/loginIcon.jpeg
+c000000004E38B7E70000000000003F9E
+t1312339943
+s16286
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/main.m
+c000000004E734EE20000000000000247
+t1316179682
+s583
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/messages.png
+c000000004DC8A7CC00000000000001AF
+t1304995788
+s431
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/person.png
+c000000004E72A01E00000000000001A2
+t1316134942
+s418
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/pic.png
+c000000004E72A01E0000000000000611
+t1316134942
+s1553
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/picplaceholder.png
+c000000004E72A01E000000000000194A
+t1316134942
+s6474
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/pull-to-refresh-arrow.png
+c000000004E37634500000000000009DA
+t1312252741
+s2522
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/release-to-refresh.png
+c000000004E3762500000000000000D2C
+t1312252496
+s3372
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/reply.png
+c000000004DC8A7CC000000000000012B
+t1304995788
+s299
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/retweet.png
+c000000004DC8A7CC00000000000000E6
+t1304995788
+s230
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/search.png
+c000000004E72A01E0000000000000184
+t1316134942
+s388
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/star.png
+c000000004E72A01E0000000000000188
+t1316134942
+s392
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/titlebar-divider.png
+c000000004DC8A7CD00000000000005B0
+t1304995789
+s1456
+
+N/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/tweet.png
+c000000004E72A01E0000000000001C64
+t1316134942
+s7268
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app
+t1317299582
+s102
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app.dSYM
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Info.plist
+t1317299582
+s1495
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/MacOS/WeiboForMac
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/PkgInfo
+t1317299582
+s8
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/<UIBarButtonSystemItem> add.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/<UIBarButtonSystemItem> reply.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/<UINavigationBar> back-highlighted.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/<UINavigationBar> back.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/<UIPopoverView> arrow-bottom.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/<UIPopoverView> arrow-left.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/<UIPopoverView> arrow-right.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/<UIPopoverView> arrow-top.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/<UIPopoverView> background.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/<UIRoundedRectButton> highlighted.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/<UIRoundedRectButton> normal.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/<UIScreen> grabber.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/<UIToolbar> button-highlighted.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/<UIToolbar> button.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/Action.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/General.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/Info.plist
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/LICENSE
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/LayoutMinimize.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/NotificationPrefs.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/Preferences.nib
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/README.md
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/SVProgressHUD.bundle
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/TabBarGlow.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/TabBarItemSelectedBackground.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/WTLoginWindow.nib
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/WTMainWindow.nib
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/WTPopoverView.nib
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/WeiboForMac.icns
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/at.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/comment.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/conversation.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/end-of-stream.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/headplaceholder.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/loginIcon.jpeg
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/messages.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/person.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/pic.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/picplaceholder.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/pull-to-refresh-arrow.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/release-to-refresh.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/reply.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/retweet.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/search.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/star.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/titlebar-divider.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/tweet.png
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/ABActiveRange.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/Base64Transcoder.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/BaseMethod.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/BaseStatus.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/CoreText+Additions.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/DBPrefsWindowController.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/DDHotKeyCenter.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/DirectMessage.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/FilePart.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/GetMethod.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/HttpClient.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/HttpMethod.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/HttpResponse.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/INAppStoreWindow.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/InvalidParameterException.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/JsonStatusParser.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/MultipartPostMethod.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSArray+WTAddition.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSAttributedString+WTAddition.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSData+Base64.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSDataAdditions.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSMutableAttributedString+ORSCanaryAdditions.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSObject+SBJson.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSString+URLEncoding.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSStringAdditions.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/OAConsumer.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/OAHMAC_SHA1SignatureProvider.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/OAPlaintextSignatureProvider.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/OARequestParameter.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/OAToken.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/OauthSingnature.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/PartBase.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/PostMethod.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/PutMethod.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/RandomStringGenerator.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonParser.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonStreamParser.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonStreamParserAccumulator.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonStreamParserAdapter.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonStreamParserState.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonStreamWriter.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonStreamWriterAccumulator.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonStreamWriterState.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonTokeniser.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonUTF8Stream.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonWriter.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SDImageCache.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SDWebImageDownloader.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SDWebImageManager.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SFBPopoverWindow.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SFBPopoverWindowController.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SFBPopoverWindowFrame.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SVProgressHUD.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/ServerSideError.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/ServerSideException.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/Status.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/StringPart.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIAccessibility.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIAccessibilityElement.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIActivityIndicatorView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIAttributedString.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIButton+Accessibility.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIButton+Content.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIButton+WTAddition.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIButton.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUICGAdditions.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIColor.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIControl+Accessibility.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIControl+Private.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIControl+TargetAction.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIControl.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIFastIndexPath.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIFont.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIGeometry.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIImage+Drawing.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIImage+UIPrivate.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIImage.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIImageView+WebCache.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIImageView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIKit.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUILabel.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUINSView+Accessibility.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUINSView+Hyperfocus.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUINSView+NSTextInputClient.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUINSView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUINSWindow.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIResponder.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIScrollKnob.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIScrollView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIStringDrawing.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITableView+Additions.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITableView+Cell.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITableView+Derepeater.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITableView+WTAddition.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITableView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITableViewCell.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITableViewSectionHeader.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITextEditor.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITextField.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITextRenderer+Event.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITextRenderer+KeyBindings.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITextRenderer.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITextView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITextViewEditor.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITooltipWindow.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView+Accessibility.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView+Animation.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView+Event.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView+NSTextInputClient.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView+PasteboardDragging.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView+Private.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView+WTAddition.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIViewController.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIViewNSViewContainer.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/UIBezierPath.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/UIColor.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/UIFont.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/UIGraphics.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/UnreadCount.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/User.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WComment.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTButtonCell.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTCacheCenter.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTColumnViewController.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTControlPanel.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTDateFormatter.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTDragableTableView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTEventHandler.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTHUDActivityIndicatorView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTHeadImageView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTImageView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTInformation.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTLoginWindow.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTMainWindow.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPopoverViewController.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPopoverWindow.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPrefsController.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPullDownView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTRefreshingCell.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTRootViewController.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTSectionAvatarView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTStatus.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTStatusCell.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTStatusListViewController.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTStatusTableView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTStream.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTTabViewController.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTTextRenderer.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTThumbPicView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTTimeLineView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTTitleView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIBarButtonItem.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIBarItem.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIInterface.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUILabel.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUILableView.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUINavigationBar.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUINavigationBarBackButton.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUINavigationController.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUINavigationItem.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIStaticTextRenderer.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIStringDrawing.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIToolBar.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIToolBarButton.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIViewController.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTWeakMap.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/Weibo.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WeiboForMac.LinkFileList
+c000000004E8467D90000000000005A29
+t1317300185
+s23081
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WeiboForMacAppDelegate.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/escape.o
+t2
+s0
+
+N/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+NWeiboForMac/WeiboForMac-Info.plist
+c000000004E38A6BB0000000000000464
+t1312335547
+s1124
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4ab6bef69f34b441^075c7ff79f34b441^---0#1#0#--18"Check dependencies
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/ABActiveRange.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/Support/ABActiveRange.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/Base64Transcoder.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/Base64Transcoder.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/BaseMethod.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/BaseMethod.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/BaseStatus.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/BaseStatus.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/CoreText+Additions.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/CoreText+Additions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/DBPrefsWindowController.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/DBPrefsWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/DDHotKeyCenter.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/DDHotKeyCenter.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/DirectMessage.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/DirectMessage.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/FilePart.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/FilePart.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/GetMethod.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/GetMethod.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/HttpClient.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/HttpClient.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/HttpMethod.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/HttpMethod.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/HttpResponse.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/HttpResponse.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/INAppStoreWindow.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/INAppStoreWindow.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/InvalidParameterException.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/InvalidParameterException.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/JsonStatusParser.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/JsonStatusParser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/MultipartPostMethod.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/MultipartPostMethod.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSArray+WTAddition.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSArray+WTAddition.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSAttributedString+WTAddition.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSAttributedString+WTAddition.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSData+Base64.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSData+Base64.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSDataAdditions.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSDataAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSMutableAttributedString+ORSCanaryAdditions.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSMutableAttributedString+ORSCanaryAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSObject+SBJson.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSObject+SBJson.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSString+URLEncoding.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSString+URLEncoding.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/NSStringAdditions.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/NSStringAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/OAConsumer.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/OAConsumer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/OAHMAC_SHA1SignatureProvider.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/OAHMAC_SHA1SignatureProvider.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/OAPlaintextSignatureProvider.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/OAPlaintextSignatureProvider.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/OARequestParameter.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/OARequestParameter.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/OAToken.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/OAToken.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/OauthSingnature.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/OauthSingnature.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/PartBase.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/PartBase.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/PostMethod.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/PostMethod.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/PutMethod.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/PutMethod.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/RandomStringGenerator.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/RandomStringGenerator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonParser.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonParser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonStreamParser.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonStreamParser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonStreamParserAccumulator.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonStreamParserAccumulator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonStreamParserAdapter.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonStreamParserAdapter.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonStreamParserState.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonStreamParserState.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonStreamWriter.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonStreamWriter.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonStreamWriterAccumulator.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonStreamWriterAccumulator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonStreamWriterState.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonStreamWriterState.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonTokeniser.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonTokeniser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonUTF8Stream.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonUTF8Stream.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SBJsonWriter.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SBJsonWriter.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SDImageCache.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SDWebImage/SDImageCache.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SDWebImageDownloader.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SDWebImage/SDWebImageDownloader.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SDWebImageManager.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SDWebImage/SDWebImageManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SFBPopoverWindow.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SFBPopoverWindow.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SFBPopoverWindowController.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SFBPopoverWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SFBPopoverWindowFrame.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SFBPopoverWindowFrame.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/SVProgressHUD.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SVProgressHUD.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/ServerSideError.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/ServerSideError.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/ServerSideException.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/ServerSideException.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/Status.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/Status.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/StringPart.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/StringPart.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIAccessibility.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIAccessibility.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIAccessibilityElement.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIAccessibilityElement.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIActivityIndicatorView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIActivityIndicatorView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIAttributedString.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIAttributedString.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIButton+Accessibility.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIButton+Accessibility.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIButton+Content.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIButton+Content.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIButton+WTAddition.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIButton+WTAddition.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIButton.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIButton.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUICGAdditions.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUICGAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIColor.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIColor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIControl+Accessibility.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIControl+Accessibility.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIControl+Private.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIControl+Private.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIControl+TargetAction.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIControl+TargetAction.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIControl.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIControl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIFastIndexPath.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIFastIndexPath.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIFont.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIFont.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIGeometry.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIGeometry.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIImage+Drawing.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIImage+Drawing.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIImage+UIPrivate.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIImage+UIPrivate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIImage.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIImage.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIImageView+WebCache.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/SDWebImage/TUIImageView+WebCache.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIImageView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIImageView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIKit.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIKit.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUILabel.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUILabel.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUINSView+Accessibility.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUINSView+Accessibility.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUINSView+Hyperfocus.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUINSView+Hyperfocus.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUINSView+NSTextInputClient.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUINSView+NSTextInputClient.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUINSView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUINSView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUINSWindow.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUINSWindow.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIResponder.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIResponder.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIScrollKnob.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIScrollKnob.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIScrollView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIScrollView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIStringDrawing.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIStringDrawing.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITableView+Additions.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITableView+Additions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITableView+Cell.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITableView+Cell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITableView+Derepeater.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITableView+Derepeater.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITableView+WTAddition.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITableView+WTAddition.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITableView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITableView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITableViewCell.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITableViewCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITableViewSectionHeader.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITableViewSectionHeader.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITextEditor.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITextEditor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITextField.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITextField.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITextRenderer+Event.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITextRenderer+Event.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITextRenderer+KeyBindings.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITextRenderer+KeyBindings.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITextRenderer.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITextRenderer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITextView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITextView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITextViewEditor.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITextViewEditor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUITooltipWindow.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUITooltipWindow.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView+Accessibility.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView+Accessibility.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView+Animation.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView+Animation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView+Event.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView+Event.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView+NSTextInputClient.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView+NSTextInputClient.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView+PasteboardDragging.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView+PasteboardDragging.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView+Private.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView+Private.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView+WTAddition.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView+WTAddition.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIViewController.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/TUIViewNSViewContainer.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/TUIViewNSViewContainer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/UIBezierPath.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/UIBezierPath.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/UIColor.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/UIColor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/UIFont.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/UIFont.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/UIGraphics.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/UIGraphics.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/UnreadCount.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/UnreadCount.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/User.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/User.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WComment.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WComment.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTButtonCell.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTButtonCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTCacheCenter.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/../WTCacheCenter.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTColumnViewController.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTColumnViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTControlPanel.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTControlPanel.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTDateFormatter.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTDateFormatter.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTDragableTableView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTDragableTableView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTEventHandler.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTEventHandler.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTHUDActivityIndicatorView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTHUDActivityIndicatorView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTHeadImageView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTHeadImageView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTImageView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTImageView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTInformation.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/../WTInformation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTLoginWindow.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/../WTLoginWindow.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTMainWindow.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/../WTMainWindow.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPopoverViewController.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s338993143.553292
+e338993143.744109
+r0
+xCompileC
+xbuild/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPopoverViewController.o
+x/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+occ1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"
+occ1obj: error: unrecognized command line option "-fdiagnostics-show-category=id"
+occ1obj: error: unrecognized command line option "-fdiagnostics-parseable-fixits"
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverViewController.m8cbf8df79f34b441^b58abef79f34b441^-318"cc1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"cc1obj: error: unrecognized command line option "-fdiagnostics-show-category=id"cc1obj: error: unrecognized command line option "-fdiagnostics-parseable-fixits"Command /usr/local/bin/libexec/ccc-analyzer failed with exit code 11(21%IDEActivityLogMessage2@67"Command /usr/local/bin/libexec/ccc-analyzer failed with exit code 1-338993143#18446744073709551615#0#-2#--23"LLVM compiler 2.1 Error--0#0#0#-19%DVTDocumentLocation3@97"file://localhost/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverViewController.m0000000000000000^2313"CompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPopoverViewController.o WeiboForMac/WTPopoverViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wutian/Documents/Develop/WeiboForMac    setenv LANG en_US.US-ASCII    /usr/local/bin/libexec/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/WeiboForMac-generated-files.hmap -I/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/WeiboForMac-own-target-headers.hmap -I/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/WeiboForMac-all-target-headers.hmap -iquote /Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/WeiboForMac-project-headers.hmap -I/Users/wutian/Documents/Develop/WeiboForMac/build/Release/include -I/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/DerivedSources/x86_64 -I/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/DerivedSources -F/Users/wutian/Documents/Develop/WeiboForMac/build/Release -include /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WeiboForMac-Prefix.pch -MMD -MT dependencies -MF /Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPopoverViewController.d -c /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverViewController.m -o /Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPopoverViewController.o
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPopoverWindow.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverWindow.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s338992943.552448
+e338992943.731896
+r0
+xCompileC
+xbuild/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPopoverWindow.o
+x/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverWindow.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+occ1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"
+occ1obj: error: unrecognized command line option "-fdiagnostics-show-category=id"
+occ1obj: error: unrecognized command line option "-fdiagnostics-parseable-fixits"
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverWindow.m8c858d2f9f34b441^a6f2ba2f9f34b441^-318"cc1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"cc1obj: error: unrecognized command line option "-fdiagnostics-show-category=id"cc1obj: error: unrecognized command line option "-fdiagnostics-parseable-fixits"Command /usr/local/bin/libexec/ccc-analyzer failed with exit code 11(21%IDEActivityLogMessage2@67"Command /usr/local/bin/libexec/ccc-analyzer failed with exit code 1-338992943#18446744073709551615#0#-2#--23"LLVM compiler 2.1 Error--0#0#0#-19%DVTDocumentLocation3@89"file://localhost/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverWindow.m0000000000000000^2273"CompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPopoverWindow.o WeiboForMac/WTPopoverWindow.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wutian/Documents/Develop/WeiboForMac    setenv LANG en_US.US-ASCII    /usr/local/bin/libexec/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/WeiboForMac-generated-files.hmap -I/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/WeiboForMac-own-target-headers.hmap -I/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/WeiboForMac-all-target-headers.hmap -iquote /Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/WeiboForMac-project-headers.hmap -I/Users/wutian/Documents/Develop/WeiboForMac/build/Release/include -I/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/DerivedSources/x86_64 -I/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/DerivedSources -F/Users/wutian/Documents/Develop/WeiboForMac/build/Release -include /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WeiboForMac-Prefix.pch -MMD -MT dependencies -MF /Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPopoverWindow.d -c /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverWindow.m -o /Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPopoverWindow.o
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPrefsController.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPrefsController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTPullDownView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPullDownView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTRefreshingCell.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTRefreshingCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s338993143.552080
+e338993143.742862
+r0
+xCompileC
+xbuild/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTRefreshingCell.o
+x/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTRefreshingCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+occ1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"
+occ1obj: error: unrecognized command line option "-fdiagnostics-show-category=id"
+occ1obj: error: unrecognized command line option "-fdiagnostics-parseable-fixits"
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTRefreshingCell.m4b908df79f34b441^fa0bbdf79f34b441^-318"cc1obj: error: unrecognized command line option "-fdiagnostics-print-source-range-info"cc1obj: error: unrecognized command line option "-fdiagnostics-show-category=id"cc1obj: error: unrecognized command line option "-fdiagnostics-parseable-fixits"Command /usr/local/bin/libexec/ccc-analyzer failed with exit code 11(21%IDEActivityLogMessage2@67"Command /usr/local/bin/libexec/ccc-analyzer failed with exit code 1-338993143#18446744073709551615#0#-2#--23"LLVM compiler 2.1 Error--0#0#0#-19%DVTDocumentLocation3@90"file://localhost/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTRefreshingCell.m0000000000000000^2278"CompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTRefreshingCell.o WeiboForMac/WTRefreshingCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wutian/Documents/Develop/WeiboForMac    setenv LANG en_US.US-ASCII    /usr/local/bin/libexec/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/WeiboForMac-generated-files.hmap -I/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/WeiboForMac-own-target-headers.hmap -I/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/WeiboForMac-all-target-headers.hmap -iquote /Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/WeiboForMac-project-headers.hmap -I/Users/wutian/Documents/Develop/WeiboForMac/build/Release/include -I/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/DerivedSources/x86_64 -I/Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/DerivedSources -F/Users/wutian/Documents/Develop/WeiboForMac/build/Release -include /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WeiboForMac-Prefix.pch -MMD -MT dependencies -MF /Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTRefreshingCell.d -c /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTRefreshingCell.m -o /Users/wutian/Documents/Develop/WeiboForMac/build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTRefreshingCell.o
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTRootViewController.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTRootViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTSectionAvatarView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTSectionAvatarView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTStatus.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTStatus.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTStatusCell.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTStatusCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTStatusListViewController.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTStatusListViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTStatusTableView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTStatusTableView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTStream.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTStream.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTTabViewController.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTTabViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTTextRenderer.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTTextRenderer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTThumbPicView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTThumbPicView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTTimeLineView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTTimeLineView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTTitleView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTTitleView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIBarButtonItem.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIBarButtonItem.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIBarItem.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIBarItem.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIInterface.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIInterface.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUILabel.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUILabel.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUILableView.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUILableView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUINavigationBar.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUINavigationBar.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUINavigationBarBackButton.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUINavigationBarBackButton.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUINavigationController.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUINavigationController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUINavigationItem.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUINavigationItem.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIStaticTextRenderer.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIStaticTextRenderer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIStringDrawing.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIStringDrawing.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIToolBar.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIToolBar.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIToolBarButton.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIToolBarButton.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTUIViewController.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTUIViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WTWeakMap.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTWeakMap.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/Weibo.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/Weibo.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/WeiboForMacAppDelegate.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WeiboForMacAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/escape.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/escape.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeiboForMac.build/Release/WeiboForMac.build/Objects-normal/x86_64/main.o /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileXIB /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTLoginWindow.xib
+r0
+
+CCompileXIB /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTMainWindow.xib
+r0
+
+CCompileXIB /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WTPopoverView.xib
+r0
+
+CCompileXIB /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/en.lproj/MainMenu.xib
+r0
+
+CCopyPlistFile /Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/Info.plist WeiboForMac/Info.plist
+r0
+
+CCopyStringsFile /Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Resources/en.lproj/InfoPlist.strings WeiboForMac/en.lproj/InfoPlist.strings
+r0
+
+CCpResource "WeiboForMac/<UIBarButtonSystemItem> add.png" "build/Release/WeiboForMac.app/Contents/Resources/<UIBarButtonSystemItem> add.png"
+r0
+
+CCpResource "WeiboForMac/<UIBarButtonSystemItem> reply.png" "build/Release/WeiboForMac.app/Contents/Resources/<UIBarButtonSystemItem> reply.png"
+r0
+
+CCpResource "WeiboForMac/<UINavigationBar> back-highlighted.png" "build/Release/WeiboForMac.app/Contents/Resources/<UINavigationBar> back-highlighted.png"
+r0
+
+CCpResource "WeiboForMac/<UINavigationBar> back.png" "build/Release/WeiboForMac.app/Contents/Resources/<UINavigationBar> back.png"
+r0
+
+CCpResource "WeiboForMac/<UIPopoverView> arrow-bottom.png" "build/Release/WeiboForMac.app/Contents/Resources/<UIPopoverView> arrow-bottom.png"
+r0
+
+CCpResource "WeiboForMac/<UIPopoverView> arrow-left.png" "build/Release/WeiboForMac.app/Contents/Resources/<UIPopoverView> arrow-left.png"
+r0
+
+CCpResource "WeiboForMac/<UIPopoverView> arrow-right.png" "build/Release/WeiboForMac.app/Contents/Resources/<UIPopoverView> arrow-right.png"
+r0
+
+CCpResource "WeiboForMac/<UIPopoverView> arrow-top.png" "build/Release/WeiboForMac.app/Contents/Resources/<UIPopoverView> arrow-top.png"
+r0
+
+CCpResource "WeiboForMac/<UIPopoverView> background.png" "build/Release/WeiboForMac.app/Contents/Resources/<UIPopoverView> background.png"
+r0
+
+CCpResource "WeiboForMac/<UIRoundedRectButton> highlighted.png" "build/Release/WeiboForMac.app/Contents/Resources/<UIRoundedRectButton> highlighted.png"
+r0
+
+CCpResource "WeiboForMac/<UIRoundedRectButton> normal.png" "build/Release/WeiboForMac.app/Contents/Resources/<UIRoundedRectButton> normal.png"
+r0
+
+CCpResource "WeiboForMac/<UIScreen> grabber.png" "build/Release/WeiboForMac.app/Contents/Resources/<UIScreen> grabber.png"
+r0
+
+CCpResource "WeiboForMac/<UIToolbar> button-highlighted.png" "build/Release/WeiboForMac.app/Contents/Resources/<UIToolbar> button-highlighted.png"
+r0
+
+CCpResource "WeiboForMac/<UIToolbar> button.png" "build/Release/WeiboForMac.app/Contents/Resources/<UIToolbar> button.png"
+r0
+
+CCpResource WeiboForMac/Action.png build/Release/WeiboForMac.app/Contents/Resources/Action.png
+r0
+
+CCpResource WeiboForMac/General.png build/Release/WeiboForMac.app/Contents/Resources/General.png
+r0
+
+CCpResource WeiboForMac/LayoutMinimize.png build/Release/WeiboForMac.app/Contents/Resources/LayoutMinimize.png
+r0
+
+CCpResource WeiboForMac/NotificationPrefs.png build/Release/WeiboForMac.app/Contents/Resources/NotificationPrefs.png
+r0
+
+CCpResource WeiboForMac/SDWebImage/LICENSE build/Release/WeiboForMac.app/Contents/Resources/LICENSE
+r0
+
+CCpResource WeiboForMac/SDWebImage/README.md build/Release/WeiboForMac.app/Contents/Resources/README.md
+r0
+
+CCpResource WeiboForMac/SVProgressHUD.bundle build/Release/WeiboForMac.app/Contents/Resources/SVProgressHUD.bundle
+r0
+
+CCpResource WeiboForMac/TabBarGlow.png build/Release/WeiboForMac.app/Contents/Resources/TabBarGlow.png
+r0
+
+CCpResource WeiboForMac/TabBarItemSelectedBackground.png build/Release/WeiboForMac.app/Contents/Resources/TabBarItemSelectedBackground.png
+r0
+
+CCpResource WeiboForMac/WeiboForMac.icns build/Release/WeiboForMac.app/Contents/Resources/WeiboForMac.icns
+r0
+
+CCpResource WeiboForMac/at.png build/Release/WeiboForMac.app/Contents/Resources/at.png
+r0
+
+CCpResource WeiboForMac/comment.png build/Release/WeiboForMac.app/Contents/Resources/comment.png
+r0
+
+CCpResource WeiboForMac/conversation.png build/Release/WeiboForMac.app/Contents/Resources/conversation.png
+r0
+
+CCpResource WeiboForMac/en.lproj/Credits.rtf build/Release/WeiboForMac.app/Contents/Resources/en.lproj/Credits.rtf
+r0
+
+CCpResource WeiboForMac/end-of-stream.png build/Release/WeiboForMac.app/Contents/Resources/end-of-stream.png
+r0
+
+CCpResource WeiboForMac/headplaceholder.png build/Release/WeiboForMac.app/Contents/Resources/headplaceholder.png
+r0
+
+CCpResource WeiboForMac/loginIcon.jpeg build/Release/WeiboForMac.app/Contents/Resources/loginIcon.jpeg
+r0
+
+CCpResource WeiboForMac/messages.png build/Release/WeiboForMac.app/Contents/Resources/messages.png
+r0
+
+CCpResource WeiboForMac/person.png build/Release/WeiboForMac.app/Contents/Resources/person.png
+r0
+
+CCpResource WeiboForMac/pic.png build/Release/WeiboForMac.app/Contents/Resources/pic.png
+r0
+
+CCpResource WeiboForMac/picplaceholder.png build/Release/WeiboForMac.app/Contents/Resources/picplaceholder.png
+r0
+
+CCpResource WeiboForMac/pull-to-refresh-arrow.png build/Release/WeiboForMac.app/Contents/Resources/pull-to-refresh-arrow.png
+r0
+
+CCpResource WeiboForMac/release-to-refresh.png build/Release/WeiboForMac.app/Contents/Resources/release-to-refresh.png
+r0
+
+CCpResource WeiboForMac/reply.png build/Release/WeiboForMac.app/Contents/Resources/reply.png
+r0
+
+CCpResource WeiboForMac/retweet.png build/Release/WeiboForMac.app/Contents/Resources/retweet.png
+r0
+
+CCpResource WeiboForMac/search.png build/Release/WeiboForMac.app/Contents/Resources/search.png
+r0
+
+CCpResource WeiboForMac/star.png build/Release/WeiboForMac.app/Contents/Resources/star.png
+r0
+
+CCpResource WeiboForMac/titlebar-divider.png build/Release/WeiboForMac.app/Contents/Resources/titlebar-divider.png
+r0
+
+CCpResource WeiboForMac/tweet.png build/Release/WeiboForMac.app/Contents/Resources/tweet.png
+r0
+
+CGenerateDSYMFile /Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app.dSYM /Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/MacOS/WeiboForMac
+r0
+
+CLd /Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/MacOS/WeiboForMac normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Info.plist WeiboForMac/WeiboForMac-Info.plist
+s338992382.439180
+e338992382.444079
+r1
+xProcessInfoPlistFile
+x/Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Info.plist
+xWeiboForMac/WeiboForMac-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process WeiboForMac/WeiboForMac-Info.plist0d8c70fe9c34b441^32ad71fe9c34b441^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/WeiboForMac-Info.plist0000000000000000^459"ProcessInfoPlistFile build/Release/WeiboForMac.app/Contents/Info.plist WeiboForMac/WeiboForMac-Info.plist    cd /Users/wutian/Documents/Develop/WeiboForMac    builtin-infoPlistUtility WeiboForMac/WeiboForMac-Info.plist -genpkginfo /Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app/Contents/Info.plist
+
+CStripNIB /Users/wutian/Documents/Develop/WeiboForMac/WeiboForMac/Preferences.nib
+r0
+
+CTouch /Users/wutian/Documents/Develop/WeiboForMac/build/Release/WeiboForMac.app
+r0
+

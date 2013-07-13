@@ -1,0 +1,124 @@
+/* 
+  Localizable.strings
+  WeiboForMac
+
+  Created by Wutian on 13-5-20.
+  Copyright (c) 2013年 Wutian. All rights reserved.
+*/
+
+"Follow" = "关注";
+"Unfollow" = "取消关注";
+"Mutual" = "双向关注";
+"Following" = "已关注";
+
+"Replies" = "评论列表";
+
+"user_followers_title_key" = "粉丝列表";
+"user_following_title_key" = "关注列表";
+
+"bio" = "一句话介绍";
+"location" = "所在地";
+"following" = "关注";
+"followers" = "粉丝";
+
+"tweets" = "微博";
+"favorites" = "收藏";
+"profile" = "个人资料";
+"mentions" = "提及";
+
+"composer_send_key" = "立即发送";
+"composer_reply_key" = "立即回复";
+"composer_repost_key" = "立即转发";
+
+"Cancel" = "取消";
+
+"Capture Screen" = "截取屏幕";
+"Select Image" = "选取图片";
+
+"Preferences" = "偏好设置";
+"Account" = "账户";
+"Remove Account" = "移除账户";
+"Remove" = "移除";
+
+"Are you sure you want to remove \"%@\"?" = "你确定你要移除账户 \"%@\"吗？";
+
+"Unauthorized. Invalid user name or password." = "用户名或密码错误！";
+"No Internet connection." = "网络连接失败，请检查是否已连接到互联网。";
+"Connection time out, please try again later." = "网络连接超时，请稍后尝试重新连接。";
+
+"Signin failed, error code:%d" = "登陆失败，错误代码:%d";
+"Signin failed" = "登陆失败";
+"OK" = "好的";
+
+"Account Exists" = "账号已存在";
+"You cannot add the same account twice." = "不能再次添加相同的账号";
+
+"General" = "通用";
+
+"Status Bar, Dock" = "状态栏, Dock";
+"None" = "没有";
+"Status Bar" = "状态栏";
+
+"Notification" = "通知";
+
+"There was an error posting your message" = "发送信息时遇到错误";
+
+"New Weibo" = "撰写新微博";
+
+"status_bar_tweets_key" = "新微博";
+"status_bar_mentions_key" = "提及";
+"status_bar_comments_key" = "评论";
+"status_bar_messages_key" = "私信";
+"status_bar_followers_key" = "粉丝";
+
+"Earth" = "地球";
+
+"Select" = "选取";
+
+"Topic" = "话题";
+
+"From %@" = "来自 %@";
+
+"imageviewer_download_success_key" = "下载成功";
+
+"Save" = "保存";
+"View Original Image" = "查看原图";
+"Download Original Image" = "下载原图";
+"Copy Original Image URL" = "复制原图链接";
+"Open in Browser" = "在浏览器中打开";
+
+"Delete Weibo?" = "删除这条微博吗?";
+"Delete" = "删除";
+
+"is following you" = "已经关注了你";
+"does not follow you" = "没有关注你";
+
+"View on Weibo.com" = "前往 Weibo.com 查看";
+
+"Unfollow?" = "取消关注?";
+"Are you sure you want to unfollow %@?" = "确定要取消关注 %@ 吗?";
+
+"No" = "否";
+
+"Are you sure you want to discard this unsaved message?" = "确定要舍弃这条未保存的信息吗?";
+"Your message will be lost." = "你的填写的信息将丢失。";
+"Discard" = "舍弃";
+
+"Error Loading List" = "加载列表时遇到错误";
+
+"Compose Weibo" = "撰写新微博";
+"Go To User" = "跳转到用户";
+"Open In New Window" = "在新窗口中打开";
+"Preference" = "偏好设置";
+
+"Problem Report for %@" = "%@ 的问题报告";
+"Please describe any steps needed to trigger the problem" = "请描述触发此问题的步骤";
+"No personal information will be sent with this report." = "此报告中不会包含任何个人信息";
+
+"Invalid authorize token" = "授权码无效";
+
+"Wrong Account" = "账号错误";
+"Please sign in the account waiting for renew." = "请先登录正在等待续期的账号。";
+
+"timeline" = "时间线";
+"weibos" = "微博";

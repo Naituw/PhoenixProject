@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Utilities
+END
+HttpClientDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Utilities/HttpClientDelegate.h
+END
+HttpClientGzipUtility.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Utilities/HttpClientGzipUtility.h
+END
+Constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Utilities/Constants.h
+END
+HttpResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Utilities/HttpResponse.h
+END
+HttpClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Utilities/HttpClient.h
+END
+HttpClientGzipUtility.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Utilities/HttpClientGzipUtility.m
+END
+DelegateMessenger.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Utilities/DelegateMessenger.h
+END
+HttpResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Utilities/HttpResponse.m
+END
+DelegateMessenger.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Utilities/DelegateMessenger.m
+END

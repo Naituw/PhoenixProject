@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'WeiboForMac' target in the 'WeiboForMac' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+//#define NSLog //NSLog
+
+#ifndef __unsafe_unretained
+#define __unsafe_unretained 
+#endif
+
+#ifndef __bridge
+#define __bridge 
+#endif
+
+#define OFFLINE_DEBUG (BOOL)NO
+
+#import "TUIKit.h"
+#import "WTUIKit.h"
+#import "WMKit.h"
+#import "TUIView+Sizes.h"
+#import "WTGeometry.h"
+#import "NSObject+AssociatedObject.h"
+#import "WTFoundationUtilities.h"

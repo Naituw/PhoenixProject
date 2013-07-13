@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  WeiboForMac
+
+  Created by Wutian on 13-5-20.
+  Copyright (c) 2013年 Wutian. All rights reserved.
+*/
+
+"composer_send_key" = "Send";
+"composer_reply_key" = "Reply";
+"composer_repost_key" = "Repost";
+
+"user_followers_title_key" = "Followers";
+"user_following_title_key" = "Following";
+
+"status_bar_tweets_key" = "Timeline";
+"status_bar_mentions_key" = "Mentions";
+"status_bar_comments_key" = "Comments";
+"status_bar_messages_key" = "Messages";
+"status_bar_followers_key" = "Followers";
+
+"imageviewer_download_success_key" = "Success";

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/6/trunk/objective-c-http-client/Classes/Methods
+END
+PutMethod.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Methods/PutMethod.h
+END
+PostMethod.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Methods/PostMethod.m
+END
+PutMethod.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Methods/PutMethod.m
+END
+GetMethod.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Methods/GetMethod.h
+END
+HttpMethod.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Methods/HttpMethod.h
+END
+BasicMethod.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Methods/BasicMethod.h
+END
+MultipartMethod.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Methods/MultipartMethod.h
+END
+DeleteMethod.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Methods/DeleteMethod.h
+END
+GetMethod.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Methods/GetMethod.m
+END
+PostMethod.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Methods/PostMethod.h
+END
+MultipartMethod.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Methods/MultipartMethod.m
+END
+BasicMethod.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/6/trunk/objective-c-http-client/Classes/Methods/BasicMethod.m
+END
+DeleteMethod.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/objective-c-http-client/Classes/Methods/DeleteMethod.m
+END

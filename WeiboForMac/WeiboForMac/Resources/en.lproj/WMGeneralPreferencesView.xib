@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1060" defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4457.6"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="WMGeneralPreferencesController">
+            <connections>
+                <action selector="updateStatusBarItemBehavior:" destination="122" id="128"/>
+                <outlet property="menuBehaviorChooser" destination="122" id="132"/>
+                <outlet property="newWeiboRecorder" destination="116" id="119"/>
+                <outlet property="showAppRecorder" destination="117" id="120"/>
+                <outlet property="view" destination="2" id="109"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <customObject id="101" customClass="SUUpdater">
+            <connections>
+                <action selector="checkForUpdates:" destination="4" id="102"/>
+            </connections>
+        </customObject>
+        <customView id="2" userLabel="General">
+            <rect key="frame" x="0.0" y="0.0" width="537" height="420"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <button id="5">
+                    <rect key="frame" x="217" y="120" width="230" height="27"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <buttonCell key="cell" type="check" title="Check for updates automatically" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="16">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="101" name="value" keyPath="automaticallyChecksForUpdates" id="108"/>
+                    </connections>
+                </button>
+                <button id="3">
+                    <rect key="frame" x="217" y="299" width="214" height="27"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <buttonCell key="cell" type="check" title="Display thumbnails in timeline" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="18">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="150" name="value" keyPath="showsThumbImage" id="156"/>
+                    </connections>
+                </button>
+                <button id="157">
+                    <rect key="frame" x="217" y="270" width="290" height="27"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <buttonCell key="cell" type="check" title="Place thumbnails on right side of weibo" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="158">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="150" name="value" keyPath="placeThumbImageOnSideOfCell" id="162"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" id="4">
+                    <rect key="frame" x="212" y="90" width="188" height="32"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <buttonCell key="cell" type="push" title="Check for updates now" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="17">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+                <textField verticalHuggingPriority="750" id="9">
+                    <rect key="frame" x="113" y="381" width="100" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Menu bar icon:" id="12">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="8">
+                    <rect key="frame" x="148" y="349" width="66" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Font size:" id="13">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <slider verticalHuggingPriority="750" id="7">
+                    <rect key="frame" x="217" y="341" width="164" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <sliderCell key="cell" state="on" alignment="left" minValue="11" maxValue="18" doubleValue="11" tickMarkPosition="below" numberOfTickMarks="8" allowsTickMarkValuesOnly="YES" sliderType="linear" id="14">
+                        <connections>
+                            <binding destination="150" name="value" keyPath="fontSize" id="154"/>
+                        </connections>
+                    </sliderCell>
+                </slider>
+                <textField verticalHuggingPriority="750" id="6">
+                    <rect key="frame" x="387" y="349" width="21" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="11" id="15">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <action selector="takeIntegerValueFrom:" destination="7" id="21"/>
+                        <binding destination="150" name="value" keyPath="fontSize" id="152"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" id="112">
+                    <rect key="frame" x="90" y="24" width="124" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Global show/hide:" id="113">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="114">
+                    <rect key="frame" x="93" y="56" width="121" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Global new weibo:" id="115">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="133">
+                    <rect key="frame" x="53" y="187" width="161" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="When new weibos arrive:" id="134">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <customView id="116" customClass="SRRecorderControl">
+                    <rect key="frame" x="219" y="52" width="160" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-2" id="118"/>
+                    </connections>
+                </customView>
+                <customView id="117" customClass="SRRecorderControl">
+                    <rect key="frame" x="219" y="20" width="160" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-2" id="121"/>
+                    </connections>
+                </customView>
+                <popUpButton verticalHuggingPriority="750" id="122">
+                    <rect key="frame" x="216" y="376" width="166" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="123">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" title="OtherViews" id="124">
+                            <items>
+                                <menuItem title="Show menu" id="125">
+                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                </menuItem>
+                                <menuItem title="Show/hide app" id="126"/>
+                                <menuItem title="Disabled" id="127"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                </popUpButton>
+                <button id="135">
+                    <rect key="frame" x="217" y="185" width="99" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="Scroll to top" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="136">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="103" name="value" keyPath="values.scroll-to-top-automatically" id="140"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" id="137">
+                    <rect key="frame" x="232" y="162" width="161" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="(If already scrolled to the top)" id="138">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="160">
+                    <rect key="frame" x="233" y="249" width="218" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="(If there is only one photo in weibo)" id="161">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button id="141">
+                    <rect key="frame" x="217" y="210" width="190" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="Open links in background" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="142">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="103" name="value" keyPath="values.open-links-in-background" id="145"/>
+                    </connections>
+                </button>
+            </subviews>
+        </customView>
+        <customObject id="150" customClass="WMUserPreferences"/>
+        <userDefaultsController id="103"/>
+    </objects>
+    <classes>
+        <class className="SRRecorderControl" superclassName="NSControl">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SRRecorderControl.h"/>
+            <relationships>
+                <relationship kind="outlet" name="delegate"/>
+            </relationships>
+        </class>
+        <class className="SUUpdater" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SUUpdater.h"/>
+            <relationships>
+                <relationship kind="action" name="checkForUpdates:"/>
+                <relationship kind="outlet" name="delegate"/>
+            </relationships>
+        </class>
+        <class className="WMGeneralPreferencesController" superclassName="NSViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WMGeneralPreferencesController.h"/>
+            <relationships>
+                <relationship kind="action" name="updateStatusBarItemBehavior:"/>
+                <relationship kind="outlet" name="menuBehaviorChooser" candidateClass="NSPopUpButton"/>
+                <relationship kind="outlet" name="newWeiboRecorder" candidateClass="SRRecorderControl"/>
+                <relationship kind="outlet" name="showAppRecorder" candidateClass="SRRecorderControl"/>
+            </relationships>
+        </class>
+        <class className="WMUserPreferences" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WMUserPreferences.h"/>
+        </class>
+    </classes>
+</document>
